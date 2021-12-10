@@ -1,0 +1,15 @@
+digraph "cetak_sem" {
+  rankdir=LR;
+  size="8,8";
+  node [fontname="Helvetica" fontsize=14 shape=box];
+  edge [fontname="Helvetica" fontsize=10];
+  center=1;
+  "Kinerja" [shape=ellipse]
+  "Motivasi" [shape=ellipse]
+ "Kinerja" -> "csq10" [label="lam_1_1=0.88"];
+  "Kinerja" -> "csq7" [label="lam_1_2=0.92"];
+  "Motivasi" -> "csq3" [label="lam_2_1=0.65"];
+  "Motivasi" -> "csq4" [label="lam_2_2=0.7"];
+  "Motivasi" -> "csq8" [label="lam_2_3=0.86"];
+  "Kinerja" -> "Motivasi" [label="beta_1_2=0.43"];
+}
