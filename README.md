@@ -1,11 +1,7 @@
 # Web-Advanced-Analysis
-
-1. If you want to analyze the characteristics of the attributes and objects of observation and want to see the relative position of these objects, it is recommended to use Biplot Analysis
-
-2. if you want to see the analysis of the influence and predict the relationship that occurs between 2 objects based on the independent variable and the dependent variable, it is recommended to use Regression Analysis
-
-3. if you want to analyze the relationship between bound objects based on the cause and effect of the existence of the object, it is recommended to use SEM Analysis
-
-4. if you want to analyze objects by looking at the categories of each object based on their respective interests, it is recommended to use Correspondence Analysis
-
-5. If you want to group objects based on the similarity between these objects, it is advisable to use Hierarchical Cluster Analysis
+This web advanced analysis was created to simplify data science analysis results automatically using the R language and using the shiny framework
+- If you want to analyze the observed properties and characteristics of objects, and want to see the relative positions of these objects, it is recommended to use Biplot Analysis.
+- If you want to see the impact analysis and predict the relationship between the two objects based on the independent variable and the dependent variable, it is recommended to use regression analysis.
+- If you want to analyze the relationship between objects that are bound according to the causal relationship between existing objects, it is recommended to use SEM analysis.
+- If you want to analyze objects by looking at the category of each object according to the interests of each object, it is recommended to use correspondence analysis.
+- If you want to group objects based on their similarities, you can use hierarchical cluster analysis
